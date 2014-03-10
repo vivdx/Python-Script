@@ -4,7 +4,7 @@ import couchdb
 from couchdb.design import ViewDefinition
 from twitter_login import login
 
-Q = "vodafone"
+Q = ""
 MAX_PAGES = 10
 #result_type = 'recent'
 

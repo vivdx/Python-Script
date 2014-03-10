@@ -4,7 +4,7 @@ import twitter
 from twitter_login import login
 
 
-q = "Berlin"
+q = ""
 count = 1000
 geocode = '50.986099,10.144501,1000km'
 MAX_PAGES = 10
