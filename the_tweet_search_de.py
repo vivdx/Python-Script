@@ -12,7 +12,7 @@ server = couchdb.Server('http://localhost:5984')
 DB = 'de-%s' % (Q.lower().replace('#', '').replace('@', ''), )
 
 t = login()
-search_results = t.search.tweets(q=Q, lang='de', until='2013-07-19', count=100)
+search_results = t.search.tweets(q=Q, lang='de', until='2013-07-19', count=10)
 tweets = search_results['statuses']
 
 for _ in range(MAX_PAGES-1): # Get more pages
